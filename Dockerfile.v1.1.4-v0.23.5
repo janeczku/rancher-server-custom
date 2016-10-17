@@ -1,3 +1,3 @@
 FROM rancher/server:v1.1.4
-COPY cadvisor-v0.23.5/cattle-resources-0.5.0-SNAPSHOT.jar /usr/share/cattle/58488b81592773dcae114770406e3e1b/WEB-INF/lib/
+COPY cadvisor-v0.23.5/cadvisor.tar.gz /usr/share/cattle/artifacts/cadvisor.tar.gz
 ADD https://github.com/rancher/cluster-manager/releases/download/v0.1.6/cluster-manager /usr/bin/
